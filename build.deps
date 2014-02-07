@@ -1,0 +1,3 @@
+isd-build-env
+'isd-python >= 2.7.5'
+isd-python-setuptools
