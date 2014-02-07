@@ -1,5 +1,5 @@
 PKG_NAME       = isd-django-oauth2-provider
-PKG_VERSION    = $(shell python setup.py --version | sed s/-dev$//)
+PKG_VERSION    = $(shell python setup.py --version | sed 's/-dev$//')
 PKG_SUMMARY    = 'Provide OAuth2 access to your app'
 PKG_DOCURI     = 'https://github.isg.apple.com/isd/packages/tree/master/isd-django-oauth2-provider'
 PKG_MAINTAINER = 'ISG Delivery Foundations - <isgdf@group.apple.com>'
